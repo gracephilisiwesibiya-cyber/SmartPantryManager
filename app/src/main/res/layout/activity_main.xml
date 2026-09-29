@@ -1,0 +1,113 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pantry_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/pantry_dark_green"
+        app:title="Smart Pantry"
+        app:titleTextColor="@color/white"
+        app:menu="@menu/main_menu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="🥫"
+            android:textSize="55sp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Smart Pantry"
+            android:textColor="@color/pantry_dark_green"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Manage your pantry smarter"
+            android:textColor="@color/pantry_grey"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btnViewPantry"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="@color/pantry_green"
+            android:text="VIEW MY PANTRY"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="@color/pantry_medium_green"
+            android:text="ADD PANTRY ITEM"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSuggestedRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="@color/pantry_green"
+            android:text="SUGGESTED RECIPES"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnShoppingList"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:backgroundTint="@color/pantry_light_green"
+            android:text="SHOPPING LIST"
+            android:textColor="@color/pantry_dark_green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Keep track • Waste less • Shop smarter"
+            android:textColor="@color/pantry_light_grey"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

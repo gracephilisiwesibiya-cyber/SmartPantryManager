@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Smart Pantry colours -->
+    <color name="pantry_background">#F7F9F7</color>
+    <color name="pantry_dark_green">#1B4332</color>
+    <color name="pantry_green">#2D6A4F</color>
+    <color name="pantry_medium_green">#40916C</color>
+    <color name="pantry_light_green">#74C69D</color>
+    <color name="pantry_grey">#6B7280</color>
+    <color name="pantry_light_grey">#7A7A7A</color>
+
+</resources>
